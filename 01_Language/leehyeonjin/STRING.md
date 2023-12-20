@@ -35,6 +35,16 @@ String은 불변(immutable)이고, StringBuffer와 StringBuilder는 가변(mutab
 > 2. setter 사용 X
 > 3. private final 멤버변수 선언.
 
+> 💡 **자바의 동시성 이슈(공유자원 접근)**
+
+> 멀티 스레드 환경에서 여러 스레드가 동시에 하나의 자원을 공유하고 있기 때문에 같은 자원을 두고 경쟁상태(race condition)가 발생.</br>
+> 따라서 thread safe한 상태를 만들어야 함.
+>
+> 1. 암시적 Lock(synchronized) : 문제가 될 가능성이 있는 자원(메소드, 변수)에 synchronized 키워드 사용.
+> 2. 명시적 Lock : 메소드보다 더 큰 범위(Lock 클래스 생성)가 필요할 때나, 동시에 여러개의 자원(메소드, 변수)에 Lock을 걸고 싶을때.
+> 3.  불변 객체 : setter를 만들지 않거나, final 키워드를 사용할때.
+> - final 키워드를 사용하면 무조건 초기화해야 함.
+> 4. Stream : 데이터 자체를 Stream() 내부에서 캡슐화해서 결과를 도출할 때.
 </br>
 
 **문자열 연산**
