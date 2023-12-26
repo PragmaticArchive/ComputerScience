@@ -6,3 +6,4 @@
 ### [4. SQL Injection](SQL_INJECTION.md)
 ### [5. 이상현상](ANOMALY.md)
 ### [6. 정규화](NORMALIZATION.md)
+### [7. 트랜잭션](TRANSACTION.md)
