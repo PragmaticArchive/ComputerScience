@@ -33,7 +33,7 @@ tags : #CS #DB #lock #transaction
 - 락을 쓰지 않는 읽기는 가능
 
 ## 단위 
-![](./img/image5.png)
+![](img/image5.png)
 > 락의 단위는 데이터베이스 종류마다 상이함
 
 ## 문제점

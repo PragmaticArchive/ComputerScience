@@ -7,7 +7,7 @@ tags: #CS #DB #key
 [[데이터무결성]]
 
 # 종류
-![](./img/image0.png)
+![](img/image0.png)
 
 1. 후보키
 	- 기본키로 사용 될 수 있는 속성들

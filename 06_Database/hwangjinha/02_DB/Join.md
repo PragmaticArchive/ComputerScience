@@ -6,16 +6,16 @@ tags : #CS #DB #join #정규화 #SQL
 - 테이블을 연결하려면, 적어도 하나의 컬럼을 서로 공유하고 있어야 하므로, 이를 이용하여 데이터 검색.
 
 ## 종류
-1. [inner join](#1.-inner-join)
-2. [outer join](#2.-outer-join)
+1. [inner join](#1-inner-join)
+2. [outer join](#2-outer-join)
 	1. left outer join
 	2. right outer join
 	3. full outer join
-3. [cross join](#3.-cross-join)
-4. [self join](#4.-self-join)
+3. [cross join](#3-cross-join)
+4. [self join](#4-self-join)
 
 ## 1. inner join
-![](./img/image1.png)
+![](img/image1.png)
 - 교집합에 해당하는 개념
 ```SQL
 SELECT <열 목록>
@@ -26,7 +26,7 @@ FROM <첫 번째 테이블>
 ```
 
 ## 2. outer join
-![](./img/image2.png)
+![](img/image2.png)
 - join 조건이 null이면 출력되지 않는 문제를 해결할 수 있다.
 ```SQL
 SELECT <열 목록> 
@@ -46,7 +46,7 @@ WHERE 검색 조건]
 - 양쪽 테이블의 모든 값이 출력되는 조인
 
 ## 3. cross join
-![](./img/image3.png)
+![](img/image3.png)
 - 한쪽 테이블의 모든 행과 다른 쪽 테이블의 모든 행을 조인
 - **카티션 곱**을 하는 것
 ```SQL
