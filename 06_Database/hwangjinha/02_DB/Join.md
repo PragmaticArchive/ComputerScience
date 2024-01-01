@@ -15,7 +15,7 @@ tags : #CS #DB #join #정규화 #SQL
 4. [self join](#4-self-join)
 
 ## 1. inner join
-![](img/image1.png)
+![img](img/image1.png)
 - 교집합에 해당하는 개념
 ```SQL
 SELECT <열 목록>
@@ -26,7 +26,7 @@ FROM <첫 번째 테이블>
 ```
 
 ## 2. outer join
-![](img/image2.png)
+![img](img/image2.png)
 - join 조건이 null이면 출력되지 않는 문제를 해결할 수 있다.
 ```SQL
 SELECT <열 목록> 
@@ -46,7 +46,7 @@ WHERE 검색 조건]
 - 양쪽 테이블의 모든 값이 출력되는 조인
 
 ## 3. cross join
-![](img/image3.png)
+![img](img/image3.png)
 - 한쪽 테이블의 모든 행과 다른 쪽 테이블의 모든 행을 조인
 - **카티션 곱**을 하는 것
 ```SQL
